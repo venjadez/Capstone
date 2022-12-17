@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    //center a div?
+    //black box
     
 </body>
 </html>
