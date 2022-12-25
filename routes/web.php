@@ -15,12 +15,7 @@ use App\Http\Controllers\ClientFormController;
 */
 
 
-Route::get('Jersey', [JerseyController::class, 'jerseyformdata']);
-
-Route::get('/', function()
-{
-    return view ('ClientForm');
-});
+Route::post('Jersey', [JerseyController::class, 'jerseyformdata']);
 Route::get('/', function()
 {
     return view ('Jersey');

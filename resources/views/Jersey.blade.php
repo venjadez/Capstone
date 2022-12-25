@@ -15,7 +15,7 @@
 	</head>
 	<body><br>
 		<div class="container">
-		<form method="post" id="submit_form">
+		<form method="post" id="submit_form" action="">
 			<div class="card">
 				<div class="card-header"><h2>Enter Jersey Details</h2></div>
 				<div class="card-body"><div class="input-group mb-3">
@@ -56,7 +56,7 @@
 		<select class="form-control selectpicker" name="muse_top_sizes[]"><option value="">Select size</option><option value ="XS">Extra Small</option><option value ="S">Small</option><option value ="Medium">Medium</option><option value ="L">Large</option><option value = "XL">Extra Large</option><option value ="2XL">2XLarge</option><option value ="3XL">3XLarge</option><option value ="4XL">4XLarge</option><option value ="5XL">5XLarge</option></select></div>
 		<div class="input-group mb-3">
 			<span class="input-group-text">MANAGER:</span>
-			<select class="form-control selectpicker" required><option value="">Nothing selected</option><option value="dress">DRESS</option><option value="sando">SANDO</option></select>
+			<select class="form-control selectpicker" required><option value="">Nothing selected</option><option value="dress">Active shirt</option><option value="sando">SANDO</option></select>
 			<input type="number" class="form-control manager_number" name="manager_number[]" placeholder="Pick a number">
 			<select class="form-control selectpicker" name="manager_top_sizes[]" required><option value="">Select size</option><option value ="XS">Extra Small</option><option value ="S">Small</option><option value ="Medium">Medium</option><option value ="L">Large</option><option value = "XL">Extra Large</option><option value ="2XL">2XLarge</option><option value ="3XL">3XLarge</option><option value ="4XL">4XLarge</option><option value ="5XL">5XLarge</option></select></div>
 	  <div class="input-group mb-3">
